@@ -44,7 +44,7 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 //Run the ExpressJS Server
-app.listen(port, '0.0.0.0' (err) => {
+app.listen(port, '0.0.0.0', (err) => {
 	if (err) {
 		console.log(err);
 		return;
